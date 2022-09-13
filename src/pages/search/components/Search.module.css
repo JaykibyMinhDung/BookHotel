@@ -1,0 +1,70 @@
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  width: 90%;
+  margin: 0em 1em 1em 1em;
+}
+.align_title > h4 {
+  font-weight: bold;
+}
+.Tag {
+  width: fit-content;
+  border-radius: 8px;
+  padding: 0 5px 0 5px;
+  box-shadow: 4px 5px 5px rgba(230, 230, 230, 0.664);
+  color: white;
+  background-color: rgb(18, 109, 18);
+}
+.detail {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.detail p {
+  font-size: 90%;
+  font-weight: bold;
+}
+.detail div {
+  font-size: medium;
+}
+.detail div > p {
+  color: rgb(31, 168, 31);
+  font-size: medium;
+  margin: 0;
+}
+.detail div > span {
+  color: rgb(31, 168, 31);
+  font-size: smaller;
+}
+.float {
+  color: rgba(0, 0, 0, 0.452);
+  font-size: medium;
+  float: right;
+  clear: both;
+  width: 100%;
+}
+.dollar {
+  font-size: large;
+  font-weight: bold;
+  float: right;
+  width: 25.3%;
+  clear: both;
+}
+.Tax {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Tax span {
+  font-size: small !important;
+  width: 83.33%;
+}
+.button {
+  margin-bottom: 7em;
+  font-weight: bold;
+}
+
+.ratelovehome {
+  text-decoration: wavy;
+  padding: 0.1em;
+  margin-left: 0.4em;
+  max-width: fit-content;
+  height: fit-content;
+  color: #f1f1f1;
+  background-color: rgb(55, 0, 255);
+}

@@ -1,0 +1,13 @@
+.foot a {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  text-decoration: none;
+  color: mediumblue;
+  cursor: pointer;
+}
+.foot a:hover {
+  text-decoration: none;
+  color: rgb(243, 62, 62);
+}

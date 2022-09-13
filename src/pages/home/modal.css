@@ -1,0 +1,9 @@
+.daterange {
+  position: absolute;
+  top: 52%;
+  left: 36%;
+  z-index: 1;
+}
+.display {
+  display: none !important;
+}

@@ -1,0 +1,22 @@
+.coloring {
+  background-color: orange;
+  margin-left: 1em;
+  color: rgba(0, 0, 0, 0.548);
+  padding: 2em;
+}
+.coloring > form > label {
+  padding-bottom: 0.5em;
+  font-weight: bold;
+}
+.coloring > form > input {
+  padding: 0.2em;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+.Collabel label {
+  padding-bottom: 0.8em;
+}
+.Colinput input {
+  width: 100%;
+  margin-bottom: 0.45em;
+}

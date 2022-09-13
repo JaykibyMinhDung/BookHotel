@@ -1,0 +1,122 @@
+div a {
+  text-decoration: none;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+div a:hover {
+  text-decoration: none;
+  color: rgba(255, 55, 55, 0.925);
+  font-size: medium;
+}
+.background {
+  background-color: rgb(3, 3, 182);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 4em;
+}
+/* .background div {
+  margin: 3px 5px 0 3px;
+} */
+div > h5 {
+  padding-left: 2.1em;
+  padding-bottom: 1em;
+  color: #f1f1f1;
+}
+.Login {
+  color: #6260e6;
+  flex-wrap: nowrap;
+  display: flex;
+  margin: 1% 2%;
+}
+.Login > button {
+  padding: 1em;
+  margin: 4%;
+  width: 150%;
+  line-height: 5px;
+  border: #f1f1f1;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+  position: relative;
+  bottom: 4em;
+  left: 13em;
+}
+.Login > button:hover {
+  background: #f56c6c;
+  box-shadow: -5px 4px 3px #f56c6c7a;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.Icon {
+  color: #f1f1f1;
+  font-size: 1em;
+  width: 100%;
+  line-height: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: baseline;
+}
+
+.Icon > div {
+  padding-left: 2.4em;
+  width: 100%;
+  /* margin-left: 1%; */
+  text-align: center;
+}
+.Icon > div > div {
+  padding: 0.1em;
+  text-align: center;
+}
+.Icon > div > div > i {
+  padding: 5%;
+  margin-left: 5%;
+}
+.c {
+  padding: 1.1em;
+  color: #f1f1f1;
+  text-align: start;
+}
+.c h3 {
+  padding-left: 0.7em;
+  color: #f1f1f1;
+  text-align: start;
+}
+.c p {
+  padding-left: 1.2em;
+  color: #f1f1f1;
+  text-align: start;
+}
+.butt {
+  position: absolute;
+  right: 8em;
+  top: 18em;
+}
+.display {
+  display: none;
+}
+.input {
+  width: 30.33%;
+  border-radius: 10px;
+  padding-left: 2em;
+  border: 0px white;
+  height: 3em;
+  line-height: normal;
+}
+/* .input::after {
+  width: 33.33%;
+  border-radius: 10px;
+  padding-left: 1em;
+  border: 0px white;
+  height: 3em;
+  line-height: normal;
+} */
+.input:active {
+  width: 33.33%;
+  border: 0px white;
+}
+.Date {
+  width: 50%;
+}

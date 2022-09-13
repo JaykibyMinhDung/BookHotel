@@ -1,0 +1,30 @@
+.background {
+  background-color: rgb(3, 3, 182);
+  text-align: center;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: 2em 0;
+}
+.background button {
+  color: white;
+  background-color: rgb(42, 56, 255);
+  padding: 0.5em;
+  margin-left: 0.5em;
+  border-radius: 5px;
+  border: 0.1em;
+}
+.background button:hover {
+  color: black;
+  background-color: lightblue;
+  margin-left: 0.5em;
+  border-radius: 5px;
+  border: 0.1em;
+}
+.background input {
+  color: black;
+  padding: 0.5em;
+  width: 30%;
+  border-radius: 5px;
+  border: 0.1em solid black;
+}

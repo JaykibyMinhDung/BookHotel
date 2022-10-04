@@ -24,8 +24,8 @@ const InformationHotel = (props) => {
             FontFamily: `"Times New Roman", Times, serif`,
           }}
         >
-          <Banner src={props.image} alt={props.name} width="250" height="190" />
-          {props.name}
+          <Banner src={props.image} alt={props.name} width="220" height="150" />
+          <h4>{props.name}</h4>
         </a>
         <p>{props.count + " hotels"}</p>
       </div>

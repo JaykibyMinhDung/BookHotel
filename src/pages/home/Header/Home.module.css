@@ -9,7 +9,7 @@ div a:hover {
   font-size: medium;
 }
 .background {
-  background-color: rgb(3, 3, 182);
+  background-color: #06067a;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +42,7 @@ div > h5 {
   background-color: #e7e7e7;
   position: relative;
   bottom: 4em;
-  left: 13em;
+  left: 4em;
 }
 .Login > button:hover {
   background: #f56c6c;
@@ -53,6 +53,7 @@ div > h5 {
 .Icon {
   color: #f1f1f1;
   font-size: 1em;
+  padding-left: 4em;
   width: 100%;
   line-height: 1rem;
   text-align: center;
@@ -61,7 +62,7 @@ div > h5 {
 }
 
 .Icon > div {
-  padding-left: 2.4em;
+  padding-left: 3.4em;
   width: 100%;
   /* margin-left: 1%; */
   text-align: center;
@@ -72,38 +73,38 @@ div > h5 {
 }
 .Icon > div > div > i {
   padding: 5%;
-  margin-left: 5%;
+  margin-left: 1%;
 }
-.c {
-  padding: 1.1em;
+.Register {
+  padding: 1.1em 5.5em;
   color: #f1f1f1;
   text-align: start;
 }
-.c h3 {
+.Register h3 {
   padding-left: 0.7em;
   color: #f1f1f1;
   text-align: start;
 }
-.c p {
+.Register p {
   padding-left: 1.2em;
   color: #f1f1f1;
   text-align: start;
 }
 .butt {
   position: absolute;
-  right: 8em;
-  top: 18em;
+  right: 9.5em;
+  top: 20.9em;
 }
 .display {
   display: none;
 }
 .input {
-  width: 30.33%;
+  width: 26%;
   border-radius: 10px;
   padding-left: 2em;
   border: 0px white;
   height: 3em;
-  line-height: normal;
+  /* line-height: normal; */
 }
 /* .input::after {
   width: 33.33%;
@@ -113,10 +114,45 @@ div > h5 {
   height: 3em;
   line-height: normal;
 } */
-.input:active {
-  width: 33.33%;
-  border: 0px white;
+.input:active,
+:focus {
+  border-style: hidden;
+  outline: none; /* Ẩn vạch kẻ quanh input khi ấn*/
 }
 .Date {
   width: 50%;
 }
+
+@media (min-width: 568px) {
+  .background {
+    width: 100%;
+    /* right: calc(100% - 100rem); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 4em;
+  }
+  /* .Login {
+  }
+  .Login > button {
+    width: 50% !important;
+    line-height: 5px;
+    border: #f1f1f1;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+  } */
+}
+
+/* @keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */

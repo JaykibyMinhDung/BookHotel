@@ -5,10 +5,17 @@ import { Row, Col } from "reactstrap";
 const InformationHomeLove = (props) => {
   return (
     <Col className={styles.lovehome}>
-      <a href="#">
-        <img src={props.image} alt={props.name} width={310} height={250}></img>
-      </a>
-      <a href="">{props.name}</a>
+      <div>
+        <a href="#">
+          <img
+            src={props.image}
+            alt={props.name}
+            width={300}
+            height={290}
+          ></img>
+        </a>
+      </div>
+      <a href="#">{props.name}</a>
 
       <p style={{ fontSize: "large" }}>{props.city}</p>
 

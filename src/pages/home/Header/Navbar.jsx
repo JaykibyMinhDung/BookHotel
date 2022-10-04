@@ -33,8 +33,8 @@ const Navbar = (props) => {
   return (
     <div>
       <div onMouseMove={border} style={status}>
-        <a href="#">{props.type}</a>
         <i className={"fa " + props.icon} aria-hidden="true"></i>
+        <a href="#">{props.type}</a>
       </div>
     </div>
   );

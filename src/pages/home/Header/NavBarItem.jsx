@@ -1,39 +1,40 @@
 import React from "react";
+import list from "../../../data/navBar.json";
 import { Row, Col } from "reactstrap";
 import Navbar from "./Navbar";
 import styles from "./Home.module.css";
 
 function Header() {
-  const list = [
-    {
-      type: "Stays",
-      icon: "fa-bed",
-      active: true,
-    },
-    {
-      type: "Flights",
-      icon: "fa-plane",
-      active: false,
-    },
-    {
-      type: "Car-rentals",
-      icon: "fa-car",
-      active: false,
-    },
-    {
-      type: "Attractions",
-      icon: "fa-bed",
-      active: false,
-    },
-    {
-      type: "Airport-taxis",
-      icon: "fa-taxi",
-      active: false,
-    },
-  ];
+  // const list = [
+  //   {
+  //     type: "Stays",
+  //     icon: "fa-bed",
+  //     active: true,
+  //   },
+  //   {
+  //     type: "Flights",
+  //     icon: "fa-plane",
+  //     active: false,
+  //   },
+  //   {
+  //     type: "Car-rentals",
+  //     icon: "fa-car",
+  //     active: false,
+  //   },
+  //   {
+  //     type: "Attractions",
+  //     icon: "fa-bed",
+  //     active: false,
+  //   },
+  //   {
+  //     type: "Airport-taxis",
+  //     icon: "fa-taxi",
+  //     active: false,
+  //   },
+  // ];
   return (
     <Row>
-      <h5 style={{ paddingLeft: "2.2em" }}>Booking Website</h5>
+      <h5 style={{ paddingLeft: "6em" }}>Booking Website</h5>
       <Col className={styles.Icon}>
         <Navbar
           type={list[0].type}

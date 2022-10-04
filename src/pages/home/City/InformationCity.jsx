@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import editimg from "./city.module.css";
 import { Row, Col } from "reactstrap";
 
 const Banner = styled.div`
@@ -17,15 +18,16 @@ const Banner = styled.div`
 
 const InformationCity = (props) => {
   return (
-    <Col>
+    <div className={editimg.align}>
       <div
+        className={editimg.banner}
         style={{
           backgroundImage: `url(${props.image})`,
           backgroundRepeat: "no-repeat",
-          width: 400,
-          height: 300,
-          color: "lightcyan",
-          position: "relative",
+          width: 380,
+          height: 320,
+          marginLeft: `${6 + "rem"}`,
+          marginBottom: `${2 + "rem"}`,
         }}
       >
         <Banner>
@@ -33,7 +35,7 @@ const InformationCity = (props) => {
           <p>{props.subText}</p>
         </Banner>
       </div>
-    </Col>
+    </div>
   );
 };
 

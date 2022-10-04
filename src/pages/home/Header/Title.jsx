@@ -6,7 +6,7 @@ const Button = styled.button`
   display: inline-block;
   border-radius: 3px;
   padding: 0.5rem 0;
-  margin: 0.5rem 1rem;
+  margin: 0rem 0rem 3.5rem 1rem;
   width: 11rem;
   background: #1c86ee;
   color: white;
@@ -26,7 +26,7 @@ const Title = (props) => {
   //   return;
   // };
   return (
-    <div className={styles.c}>
+    <div className={styles.Register}>
       <h3>A lifetime of discounts ? It's Genius</h3>
       <p>
         Get reward for your travels - unlock instant saving 10% or more with a

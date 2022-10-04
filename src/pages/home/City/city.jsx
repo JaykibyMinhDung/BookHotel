@@ -1,27 +1,29 @@
 import React from "react";
+import ListCity from "../../../data/city.json";
 import InformationCity from "./InformationCity";
 import { Row, Col } from "reactstrap";
+import editimg from "./city.module.css";
 
-const ListCity = [
-  {
-    name: "Dublin",
-    subText: "123 properties",
-    image: "./images/city_1.webp",
-  },
-  {
-    name: "Reno",
-    subText: "533 properties",
-    image: "./images/city_2.webp",
-  },
-  {
-    name: "Austin",
-    subText: "532 properties",
-    image: "./images/city_3.webp",
-  },
-];
+// const ListCity = [
+//   {
+//     name: "Dublin",
+//     subText: "123 properties",
+//     image: "./images/city_1.webp",
+//   },
+//   {
+//     name: "Reno",
+//     subText: "533 properties",
+//     image: "./images/city_2.webp",
+//   },
+//   {
+//     name: "Austin",
+//     subText: "532 properties",
+//     image: "./images/city_3.webp",
+//   },
+// ];
 const City = () => {
   return (
-    <Row className="backgroundImage">
+    <Row className={editimg.display}>
       <InformationCity
         name={ListCity[0].name}
         subText={ListCity[0].subText}

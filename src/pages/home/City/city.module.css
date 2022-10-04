@@ -1,0 +1,12 @@
+.banner {
+  color: lightcyan;
+  position: relative;
+}
+.align {
+  padding-left: 2em;
+}
+.display {
+  display: flex !important;
+  width: 30% !important;
+  flex-wrap: nowrap;
+}

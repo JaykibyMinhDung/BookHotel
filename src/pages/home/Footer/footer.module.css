@@ -1,7 +1,8 @@
 .foot a {
   display: flex;
   flex-wrap: nowrap;
-  padding-left: 1em;
+  margin: 0em;
+  padding-left: 0.2em;
   padding-bottom: 1em;
   text-decoration: none;
   color: mediumblue;

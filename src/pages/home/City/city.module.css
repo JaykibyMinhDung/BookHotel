@@ -3,10 +3,18 @@
   position: relative;
 }
 .align {
-  padding-left: 2em;
+  padding-left: 5rem;
 }
 .display {
-  display: flex !important;
-  width: 30% !important;
-  flex-wrap: nowrap;
+  /* display: flex !important; */
+  width: 100%;
+  /* flex-wrap: wrap; */
+  /* flex-flow: wrap; */
+}
+.display div {
+  float: left;
+  /* display: flex !important; */
+  width: 30%;
+  /* flex-wrap: wrap; */
+  /* flex-flow: wrap; */
 }

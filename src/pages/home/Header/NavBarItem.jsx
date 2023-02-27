@@ -34,7 +34,7 @@ function Header() {
   // ];
   return (
     <Row>
-      <h5 style={{ paddingLeft: "6em" }}>Booking Website</h5>
+      <h5 style={{ marginLeft: "5rem" }}>Booking Website</h5>
       <Col className={styles.Icon}>
         <Navbar
           type={list[0].type}
@@ -62,7 +62,7 @@ function Header() {
           active={list[4].active}
         />
       </Col>
-      <Col className={styles.Login} lg={1}>
+      <Col className={styles.Login} lg={2}>
         <button>Register</button>
         <button>Login</button>
       </Col>

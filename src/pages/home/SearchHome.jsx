@@ -13,15 +13,15 @@ const Style = styled.label`
   border-radius: 10px;
   background-color: white;
   position: absolute;
-  right: 7em;
-  top: 20.5em;
+  right: 3%;
+  top: 90%;
   border: 3.5px solid rgb(224, 202, 0);
 
   & i {
     color: rgba(0, 0, 0, 0.513);
   }
   & span {
-    margin: 2em !important;
+    margin: 2rem !important;
   }
 `;
 

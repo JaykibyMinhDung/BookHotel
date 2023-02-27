@@ -1,4 +1,7 @@
 .backgroundImage {
   padding-left: 7.1em;
-  padding-right: 4.5em;
+  padding-right: 1.5%;
+}
+.backgroundImage h4:hover {
+  color: rgb(25, 0, 255);
 }

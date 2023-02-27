@@ -10,8 +10,8 @@ const InformationHomeLove = (props) => {
           <img
             src={props.image}
             alt={props.name}
-            width={300}
-            height={290}
+            width={240}
+            height={160}
           ></img>
         </a>
       </div>

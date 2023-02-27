@@ -18,6 +18,9 @@ const Button = styled.input`
 `;
 
 const SearchPopup = () => {
+  function reload() {
+    window.location.replace("/");
+  }
   return (
     <div className={styles.coloring}>
       <form>
@@ -70,7 +73,7 @@ const SearchPopup = () => {
             <br />
           </Col>
         </Row>
-        <Button type={"button"} value={"Search"} />
+        <Button type={"button"} value={"Search"} onClick={reload} />
       </form>
     </div>
   );

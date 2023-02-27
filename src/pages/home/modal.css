@@ -1,7 +1,7 @@
 .daterange {
   position: absolute;
-  top: 58%;
-  left: 40%;
+  top: 100%;
+  left: 39%;
   z-index: 1;
 }
 .display {

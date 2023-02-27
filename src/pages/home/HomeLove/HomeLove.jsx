@@ -40,7 +40,7 @@ import { Row, Col } from "reactstrap";
 
 const HomeLove = () => {
   return (
-    <Row style={{ paddingLeft: "7em", paddingRight: "5em", margin: "0em" }}>
+    <Row style={{ paddingLeft: "6em", paddingRight: "10rem", margin: "0em" }}>
       <h2>Homes guests love</h2>
       <InformationHomeLove
         name={informationHomeLovedata[0].name}

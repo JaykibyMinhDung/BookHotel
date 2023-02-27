@@ -6,16 +6,11 @@ function reload() {
 }
 const Search = () => {
   return (
-    <div>
+    <React.Fragment>
       <div>
         <SearchList />
       </div>
-      <div>
-        <button type="button" onClick={reload}>
-          Return Home
-        </button>
-      </div>
-    </div>
+    </React.Fragment>
   );
 };
 

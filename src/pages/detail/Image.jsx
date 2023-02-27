@@ -22,8 +22,11 @@ const Button = styled.button`
 `;
 
 const Image = (props) => {
+  function reload() {
+    window.location.replace("/");
+  }
   return (
-    <div style={{ marginLeft: "2em" }}>
+    <div style={{ marginLeft: "7em" }}>
       <div>
         <div className={styles.intro}>
           <h3>{props.name}</h3>
@@ -41,7 +44,7 @@ const Image = (props) => {
           <img
             src={img}
             alt={props.name + index}
-            width={420}
+            width={350}
             height={290}
           ></img>
         ))}
@@ -50,7 +53,7 @@ const Image = (props) => {
         <Row>
           <Col lg={9}>
             <h3 style={{ fontWeight: "bold" }}>{props.title}</h3>
-            <span>{props.description}</span>
+            <div style={{ marginRight: 9.6 + "em" }}>{props.description}</div>
           </Col>
           <Col lg={3} className={styles.theme}>
             <p>
@@ -64,7 +67,7 @@ const Image = (props) => {
               <strong style={{ fontSize: "larger" }}>{" $" + 945}</strong>{" "}
               {"(9 nights)"}
             </p>
-            <Button style={{ width: "100%" }} onClick={"a"}>
+            <Button style={{ width: "100%" }} onClick={reload}>
               Reserve or book Now
             </Button>
           </Col>

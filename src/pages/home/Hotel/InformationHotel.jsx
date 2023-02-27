@@ -6,11 +6,13 @@ import styled from "styled-components";
 const InformationHotel = (props) => {
   const Banner = styled.img`
     padding: 0em;
+    box-shadow: 1px 5px 5px #00000077, 0px -4px 10px #0000005e;
+    transition: all 200ms ease-in;
     &:hover {
-      padding: 0.5em;
-      width: 350;
-      height: 300;
-      box-shadow: 5px 3px 2px #bbbbbb, 0px -2px 2px #bbbbbb;
+      transform: scale(1.1);
+      // padding: 0.5em;
+      // width: 350;
+      // height: 300;
     }
   `;
   return (

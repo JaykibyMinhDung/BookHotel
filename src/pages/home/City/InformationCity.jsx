@@ -4,15 +4,18 @@ import editimg from "./city.module.css";
 import { Row, Col } from "reactstrap";
 
 const Banner = styled.div`
-  padding: 0.4em;
+  padding: 1.4em;
   font-family: Impact, "Arial Narrow Bold", sans-serif;
-  font-size: 160%;
+  font-size: 120%;
   color: white;
+  transition: all 400ms ease-in;
+  cursor: pointer;
   position: absolute;
-  top: 8em;
+  top: 12rem;
 
   &:hover {
-    color: #63b8ff;
+    transition: all 400ms ease-in;
+    transform: scale(1.2);
   }
 `;
 
@@ -26,7 +29,7 @@ const InformationCity = (props) => {
           backgroundRepeat: "no-repeat",
           width: 380,
           height: 320,
-          marginLeft: `${6 + "rem"}`,
+          marginLeft: `${2.8 + "rem"}`,
           marginBottom: `${2 + "rem"}`,
         }}
       >

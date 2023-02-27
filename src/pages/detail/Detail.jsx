@@ -41,7 +41,6 @@ const Detail = () => {
           </div>
           <Title />
         </div>
-        <SearchHome />
       </div>
       <Image
         name={Homepage.name}

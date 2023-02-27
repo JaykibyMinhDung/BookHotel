@@ -5,11 +5,16 @@ div a {
 }
 div a:hover {
   text-decoration: none;
-  color: rgba(255, 55, 55, 0.925);
+  color: rgb(238, 255, 0);
   font-size: medium;
 }
+.StyleNavbar:hover {
+  border-radius: 20px;
+  border: 1px solid white;
+}
 .background {
-  background-color: #06067a;
+  position: relative;
+  background-color: #3e3eb6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,22 +29,24 @@ div > h5 {
   padding-bottom: 1em;
   color: #f1f1f1;
 }
+/* Nut Login and Register */
 .Login {
   color: #6260e6;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   display: flex;
   margin: 1% 2%;
 }
 .Login > button {
-  padding: 1em;
-  margin: 4%;
-  width: 150%;
+  padding: 1.2rem 1rem;
+  margin-right: 5%;
+  width: 50%;
   line-height: 5px;
   border: #f1f1f1;
-  text-align: center;
+  /* text-align: center; */
   font-size: 1em;
   border-radius: 5px;
-  background-color: #e7e7e7;
+  background: #00aeff;
+  /* float: left; */
   position: relative;
   bottom: 4em;
   left: 4em;
@@ -50,6 +57,8 @@ div > h5 {
   border-radius: 20px;
   transition: 0.5s;
 }
+
+/* Icon Navbar */
 .Icon {
   color: #f1f1f1;
   font-size: 1em;
@@ -90,20 +99,22 @@ div > h5 {
   color: #f1f1f1;
   text-align: start;
 }
+/* Thanh Tim Kiem */
 .butt {
   position: absolute;
-  right: 9.5em;
-  top: 20.9em;
+  right: 5.5%;
+  top: 23.5vw;
 }
+/* DateRange */
 .display {
   display: none;
 }
 .input {
   width: 26%;
   border-radius: 10px;
-  padding-left: 2em;
+  padding-left: 2rem;
   border: 0px white;
-  height: 3em;
+  height: 3rem;
   /* line-height: normal; */
 }
 /* .input::after {
@@ -123,7 +134,7 @@ div > h5 {
   width: 50%;
 }
 
-@media (min-width: 568px) {
+@media (max-width: 668px) {
   .background {
     width: 100%;
     /* right: calc(100% - 100rem); */
@@ -133,8 +144,33 @@ div > h5 {
     padding: 0.5rem;
     margin-bottom: 4em;
   }
-  /* .Login {
+  .Login button {
+    padding: 1em;
+    margin: 4%;
+    width: 50% !important;
+    line-height: 5px;
+    border: #f1f1f1;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    position: relative;
+    bottom: 4em;
+    left: 4em;
   }
+  .Register {
+    color: #f1f1f1;
+    text-align: start;
+  }
+  .Register h3 {
+    color: #f1f1f1;
+    text-align: start;
+  }
+  .Register p {
+    color: #f1f1f1;
+    text-align: start;
+  }
+  /*
   .Login > button {
     width: 50% !important;
     line-height: 5px;
